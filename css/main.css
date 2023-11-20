@@ -535,3 +535,165 @@ section.overview p {
 .dp-flex {
   display: flex;
 }
+
+/* Footer */
+footer {
+  background-color: var(--white);
+  box-shadow: 0 12px 66px 0 rgba(229, 232, 222, 0.84);
+  margin-top: 100px;
+}
+
+footer .p-footer {
+  padding: 61px;
+}
+
+footer ul {
+  list-style: none;
+  padding: 1px;
+}
+
+footer .name-head {
+  color: var(--on-surface);
+  font-size: var(--subtitle);
+  font-weight: var(--fw-semi-bold);
+  line-height: 18px;
+  letter-spacing: 0.2px;
+}
+
+footer .address {
+  color: var(--on-surface);
+  font-size: var(--subtitle);
+  font-weight: var(--fw-light);
+  line-height: 18px;
+  letter-spacing: 0.1px;
+}
+
+.contact span {
+  color: var(--on-surface);
+  font-size: var(--subtitle);
+  font-weight: var(--fw-light);
+}
+
+footer .item {
+  color: var(--on-surface);
+  font-size: var(--subtitle);
+  font-weight: var(--fw-light);
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  margin-bottom: 9px;
+}
+
+footer .float-right {
+  float: right;
+}
+
+.bg-icon-sm {
+  background-color: var(--on-surface);
+  color: var(--white);
+  width: 35px;
+  height: 35px;
+  font-size: 20px;
+  margin-right: 5px;
+}
+
+footer .desc {
+  color: var(--on-surface);
+  font-weight: var(--fw-light);
+  line-height: 18px;
+  letter-spacing: 0.1px;
+  font-size: var(--subtitle);
+}
+
+/* Responsive */
+@media(max-with: 991px) {
+  /* navbar*/
+  .navbar {
+    padding-top: var(--p-space-1);
+  }
+
+  /* Hero */
+  .hero {
+    background-color: var(--primary-light);
+  }
+
+  .heroContent1 {
+    margin: 50px 0;
+  }
+
+  .heroBg {
+    display: none;
+  }
+
+  .hero .heroC1Title {
+    font-size: var(--second-heading-mobile);
+    font-weight: var(--fw-bold);
+    letter-spacing: 0.2px;
+    line-height: 43px;
+  }
+
+  .coin,
+  .rounded1,
+  .rounded2,
+  .ovalFloatIcon,
+  .iconElement,
+  .oval1 {
+    display: none;
+  }
+
+  /* Popular */
+  section.popular-class {
+    margin: 50px 0 34px 0;
+  }
+
+  .call-action .btn {
+    float: left;
+  }
+
+  /* Big brand */
+  .big-brand {
+    display: none;
+  }
+
+  /* Discover */
+  .discover {
+    margin: 1rem 0 60px 0;
+    position: relative;
+  }
+
+  .discover .header-section {
+    width: auto;
+    margin: 0 auto;
+  }
+
+  .sp-cnt {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+
+  .dp-flex {
+    display: block;
+  }
+
+  footer .float-right {
+    float: left !important;
+  }
+
+  .links {
+    margin-top: 24px;
+  }
+}
+
+/* Desktop Only */
+@media(max-width: 1023px) {
+  .navbar {
+    background-color: var(--white);
+    box-shadow: 0 2px 48px 4px rgba(0, 0, 0, 0.09);
+    left: 0;
+    padding: 10px 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    width: 100%;
+    z-index: 10;
+  }
+}
